@@ -7,7 +7,7 @@
       name: PyMySQL
       executable:pip3.9
 
-  - name: install mysql server
+  - name: install Mysql server
     ansible.builtin.package:
       name: mysql-server
       state: installed
