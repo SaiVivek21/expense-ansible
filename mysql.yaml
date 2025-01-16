@@ -12,3 +12,6 @@
       name: mysqld
       state: started
       enable: yes
+
+  - name: connect to mysql server
+    
