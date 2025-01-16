@@ -24,7 +24,7 @@
       login_password: ExpenseApp@1
       login_host: mysql.basam.site
     register: mysql_info
-
+    ignore_errors: true
 
   - name: print the output
     ansible.builtin.package:
