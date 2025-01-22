@@ -48,7 +48,7 @@
 
   - name: install python libs
     ansible.builtin.pip:
-      name:PyMySQL
+      name: PyMySQL
       executable: pip3.9
 
 
