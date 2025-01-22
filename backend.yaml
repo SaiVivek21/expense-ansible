@@ -63,4 +63,4 @@
       login_user: root
       login_password: ExpenseApp@1
       login_host: mysql.basam.site
-      target: /app/schema/backend.mysql
+      target: /app/schema/backend.sql
