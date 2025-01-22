@@ -64,3 +64,10 @@
       login_password: ExpenseApp@1
       login_host: mysql.basam.site
       target: /app/schema/backend.sql
+
+
+  - name: daemon reload and restart service
+    ansible.builtin.systemd_service:
+      enabled: true
+      state: restarted
+      name: backend
